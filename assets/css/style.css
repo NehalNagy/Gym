@@ -5,7 +5,7 @@ body{
 .page-header{
     text-align: center;
     color: white;
-    background: url("/assets/images/home_header.jpg");
+    background-image: url("../assets/images/home_header.jpg");
     background-size: cover;
 	height: 800px;
 }
@@ -36,7 +36,7 @@ a:hover{
 }
 #about a:hover{
     color: #E82C0C;
-   
+
 }
 #services,#health-tips{
     background-attachment: fixed;
@@ -44,10 +44,10 @@ a:hover{
      min-height: 500px;
 }
 #services{
-    background-image: url("/assets/images/bg/service_bkg.jpg");
+    background-image: url("../assets/images/bg/service_bkg.jpg");
 }
 #health-tips{
-    background-image: url("/assets/images/bg/health_bkg.jpg");
+    background-image: url("../assets/images/bg/health_bkg.jpg");
 
 }
 .serviceItem>img,.health-tips-item>img{
@@ -67,7 +67,7 @@ a:hover{
     text-align: center;
 }
 .health-tips-item,.serviceItem{
-     background-color: rgba(0,0,0,.4);    
+     background-color: rgba(0,0,0,.4);
   border-bottom: 5px solid rgba(255, 0, 0, .5);
 }
 .serviceItem{
@@ -78,10 +78,10 @@ a:hover{
 .health-tips-item{
     margin: 0 5px;
     min-width: 300px;
-    min-height: 350px;   
+    min-height: 350px;
     text-align: center;
 }
-h2,h3{  
+h2,h3{
     padding: 30px 0px;
 }
 h3{
