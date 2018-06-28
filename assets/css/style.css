@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.page-header{
+    text-align: center;
+    color: white;
+    background: url("/assets/images/home_header.jpg");
+    background-size: cover;
+	height: 800px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+}
+li{
+	display: inline;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 1.5em;
+    margin: 2%;
+}
+a{
+	color: #E82C0C;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+#about a:hover{
+    color: #000;
+}
+#services,#health-tips{
+    background-attachment: fixed;
+    background-size: cover;
+     min-height: 500px;
+}
+#services{
+    background-image: url("/assets/images/bg/service_bkg.jpg");
+}
+#health-tips{
+    background-image: url("/assets/images/bg/health_bkg.jpg");
+   
+}
+.serviceItem>img,.health-tips-item>img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5%;
+}
+.aboutItem>img{
+    max-height: 100px;
+    max-width: 100px;
+
+}
+ .top-gap{
+    margin-top: 5%;
+}
+.serviceItem,.aboutItem{
+    text-align: center;
+}
+
+.serviceItem{
+     margin: 10px;
+    min-height: 250px;
+    min-width: 300px;
+    background-color: rgba(0,0,0,.4);
+}
+.health-tips-item{
+    margin: 0 5px;
+    min-height: 300px;
+    min-width: 300px;
+    text-align: center;
+    background-color: rgba(0,0,0,.4);
+}
+h2,h3{
+   color: #E82C0C;
+    padding: 30px 0px;
+}
+h3{
+    font-size: 1.25rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+p{
+/*    color: #545454;*/
+      color: #fff;
+}
+#footer{
+    background-color: #E82C0C;
+    text-align: center;
+    height: 45px;
+
+}
+#footer>p{
+    color: #fff;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#copyRight{
+    padding: 10px 0;
+}
+#logo{
+    max-height: 45px;
+    float: left;
+    margin-left: 3%;
+}
