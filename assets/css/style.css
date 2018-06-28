@@ -5,7 +5,7 @@ body{
 .page-header{
     text-align: center;
     color: white;
-    background: url("/assets/images/home_header.jpg");
+    background: url("../assets/images/home_header.jpg");
     background-size: cover;
 	height: 800px;
 }
@@ -39,11 +39,11 @@ a:hover{
      min-height: 500px;
 }
 #services{
-    background-image: url("/assets/images/bg/service_bkg.jpg");
+    background-image: url("../assets/images/bg/service_bkg.jpg");
 }
 #health-tips{
-    background-image: url("/assets/images/bg/health_bkg.jpg");
-   
+    background-image: url("../assets/images/bg/health_bkg.jpg");
+
 }
 .serviceItem>img,.health-tips-item>img{
     height: 200px;
