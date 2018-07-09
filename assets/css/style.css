@@ -172,6 +172,8 @@ p{
 // Extra large devices (large desktops)
 // No media query since the extra-large breakpoint has no upper bound on its width
 */
+
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	.animated {
@@ -194,7 +196,27 @@ p{
 		-ms-animation: none !important;
 		animation: none !important;
 	}
-    
+    #services{
+        background: url("../images/bg/service_bkg_mobile.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+        
+    }
+    #health-tips{
+        background: url("../images/bg/health_bkg_mobile.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+        
+
+    }   
     
     .serviceItem,.health-tips-item{
     margin: 10px;
@@ -202,3 +224,4 @@ p{
     }
 
 }
+
