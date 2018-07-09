@@ -13,7 +13,10 @@ body,html{
 }
 .navbar{
     background-color: rgba(255, 0, 0, 0.5);
-    color: white;
+}
+.nav-item{
+    color: white !important;
+    padding-left: 50px!important;
 }
 /*
 
@@ -37,7 +40,7 @@ a{
 }
 a:hover{
     color: #E82C0C;
-     color: rgba(255, 0, 0, .8);
+     color: rgba(255, 0, 0, 0.8);
     text-decoration: none;
 }
 #about a{
@@ -169,3 +172,33 @@ p{
 // Extra large devices (large desktops)
 // No media query since the extra-large breakpoint has no upper bound on its width
 */
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+    
+    
+    .serviceItem,.health-tips-item{
+    margin: 10px;
+    min-height: 100px; 
+    }
+
+}
