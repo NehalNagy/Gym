@@ -144,25 +144,14 @@ p{
 @media (min-width: 1200px) { ... }
 */
 
+
 /*
-
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { 
-    li{   
-        margin: 0;
-        border-bottom: 0px ;
-
-    }
-}
+@media (max-width: 575.98px) { ...}
 
 // Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
-    li{	
-        border-bottom: 0px ;
-        margin: 0;    
+@media (max-width: 767.98px) {...}
 
-    }
-}
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) { ... }
 
@@ -215,13 +204,16 @@ p{
         height: 100%;
         overflow: hidden;
         
-
-    }   
-    
-    .serviceItem,.health-tips-item{
-    margin: 10px;
-    min-height: 100px; 
     }
-
+    .serviceItem,.health-tips-item{
+        margin: 10px;
+        min-height: 100px;
+    }
 }
 
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .page-header{
+        background-image: url("../images/home_header_mobile.jpg");
+    }
+}
