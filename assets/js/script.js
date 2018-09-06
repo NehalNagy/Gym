@@ -20,3 +20,14 @@ $(function () {
         wow.addBox(this);
     }).scrollSpy();
 });
+
+//Change menu transparency when scrolling
+$(document).scroll(function() {
+  var scrollTop = $(window).scrollTop();
+        if (scrollTop >= 650 ) {
+            $('#menu').removeClass("transparent");
+        }
+        else{
+            $('#menu').addClass("transparent");
+        }
+});
