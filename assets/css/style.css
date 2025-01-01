@@ -7,10 +7,11 @@ body,html{
 .page-header{
     text-align: center;
     color: white;
-    background-image: url("../images/home_header.jpg");
+    background-image: url("../images/hero.jpg");
     background-size: cover;
 	height: 100%;
     width: 100%;
+position: relative;
 }
 .navbar{
     background-color: rgba(228, 6, 6, 1);
@@ -118,6 +119,11 @@ p{
     float: left;
     margin-left: 3%;
 }
+.slogan{
+   position: absolute;
+   top: 50%;
+   right: 25%;
+}
 /*
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
@@ -203,8 +209,8 @@ p{
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
   .page-header{
         background-image: url("../images/home_header_mobile.jpg");
     }
-}
+} */
